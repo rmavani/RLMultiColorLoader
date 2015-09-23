@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import "RLMultiColorLoader.h"
+
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet RLMultiColorLoader *loader1;
+@property (weak, nonatomic) IBOutlet RLMultiColorLoader *loader2;
+@property (weak, nonatomic) IBOutlet RLMultiColorLoader *loader3;
 
 @end
 

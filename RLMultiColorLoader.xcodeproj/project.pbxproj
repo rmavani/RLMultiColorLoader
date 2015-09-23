@@ -15,6 +15,7 @@
 		840F25371BB2783300542653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840F25351BB2783300542653 /* LaunchScreen.storyboard */; };
 		840F25421BB2783300542653 /* RLMultiColorLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F25411BB2783300542653 /* RLMultiColorLoaderTests.m */; };
 		840F254D1BB2783400542653 /* RLMultiColorLoaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F254C1BB2783400542653 /* RLMultiColorLoaderUITests.m */; };
+		840F25631BB27D3200542653 /* RLMultiColorLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F25621BB27D3200542653 /* RLMultiColorLoader.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		840F25481BB2783400542653 /* RLMultiColorLoaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLMultiColorLoaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840F254C1BB2783400542653 /* RLMultiColorLoaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLMultiColorLoaderUITests.m; sourceTree = "<group>"; };
 		840F254E1BB2783400542653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840F25611BB27D3200542653 /* RLMultiColorLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMultiColorLoader.h; sourceTree = "<group>"; };
+		840F25621BB27D3200542653 /* RLMultiColorLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLMultiColorLoader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				840F25301BB2783300542653 /* Main.storyboard */,
 				840F25331BB2783300542653 /* Assets.xcassets */,
 				840F25351BB2783300542653 /* LaunchScreen.storyboard */,
+				840F25611BB27D3200542653 /* RLMultiColorLoader.h */,
+				840F25621BB27D3200542653 /* RLMultiColorLoader.m */,
 				840F25381BB2783300542653 /* Info.plist */,
 				840F25271BB2783300542653 /* Supporting Files */,
 			);
@@ -272,6 +277,7 @@
 			files = (
 				840F252F1BB2783300542653 /* ViewController.m in Sources */,
 				840F252C1BB2783300542653 /* AppDelegate.m in Sources */,
+				840F25631BB27D3200542653 /* RLMultiColorLoader.m in Sources */,
 				840F25291BB2783300542653 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
